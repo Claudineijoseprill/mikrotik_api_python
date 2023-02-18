@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
-from api_mk import ApiRos 
+from api_mk import MK_API 
 
 #                 IP           User    password     port    (True or False SSL= Default false)
 #ser = MK_API(ip, username, password, port=8728, ssl=False)
 
-ser = ApiRos("192.168.88.1", "admin", "")
+ser = MK_API("192.168.88.1", "admin", "")
 if not ser.loged:
     sys.exit(0)
 
