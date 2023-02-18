@@ -5,6 +5,12 @@
 # crea una instancia de MK_API
 # Ejemplo abajo
 
+
+
+
+
+
+
 from api_mk import ApiRos 
 
 ser = ApiRos("10.0.5.67", "play", "poi")
