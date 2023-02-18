@@ -2,7 +2,10 @@
 
 from api_mk import ApiRos 
 
-ser = ApiRos("10.0.5.67", "play", "poi")
+#                 IP           User    password     port    (True or False SSL= Default false)
+#ser = MK_API(ip, username, password, port=8728, ssl=False)
+
+ser = ApiRos("192.168.88.1", "admin", "")
 if not ser.loged:
     sys.exit(0)
 
