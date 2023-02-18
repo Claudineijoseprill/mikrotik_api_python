@@ -2,7 +2,7 @@
 import sys, posix, time, binascii, socket, select, ssl
 import hashlib
 
-class ApiRos:
+class MK_API:
     "Routeros api"
     def __init__(self, dst, username, password, port=8728, secure=False):
 
